@@ -1,0 +1,430 @@
+{
+  "input_pdf": "doc.pdf",
+  "document_summary": {
+    "Linear Accelerator Shielding Specifications": {
+      "Accelerator/Room": "Varian True Beam/Linac vault",
+      "References to barrier numbers in this report supersede all references in previous reports": "",
+      "Design Criteria": {
+        "National Council on Radiation Protection and Measurements (NCRP) as contained in NCRP Report Number 151, Structural Shielding Design and Evaluation for Megavoltage X- and Gamma-Ray Radiotherapy Facilities, and Shielding Techniques for Radiation Oncology Facilities, by Patton McGinley": "",
+        "No responsibility is assumed or implied for the adequacy of the enclosed specifications for workloads and/or conditions other than those stated herein": ""
+      },
+      "Introduction": {
+        "Manufacturer": "VM Systems, Inc.",
+        "Model": "True Beam",
+        "Megavoltage of X-ray beam": [
+          "15 MV",
+          "10 MV",
+          "10 FFF",
+          "6 MV",
+          "6 FFF"
+        ],
+        "Workload Assumptions": {
+          "Primary Barrier Workload": [
+            150,
+            125,
+            125,
+            200,
+            200
+          ],
+          "Leakage Workload": [
+            450,
+            375,
+            375,
+            600,
+            600
+          ],
+          "IMRT factor": 3,
+          "Total Body Irradiation (TBI) was not considered in this shielding design": "",
+          "X-ray head leakage": 0.1,
+          "Neutron head leakage": 0.05,
+          "Total number of patients per day": 45
+        },
+        "Use Factors": {
+          "Primary Barriers": [
+            0.25,
+            0.3,
+            0.25,
+            0.25
+          ],
+          "Shielding Material Densities": {
+            "Material": [
+              "Concrete",
+              "BPE",
+              "Earth",
+              "High-Density Concrete",
+              "Lead",
+              "Steel"
+            ],
+            "Density (lbs/ft3)": [
+              147,
+              59.2,
+              93.4,
+              300,
+              709,
+              490
+            ]
+          },
+          "Assumptions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "Significantly based on workload and the occupancy factor of surrounding space, the typical thickness of the primary barrier in a high-energy linac ranges from 4.9’ to 9.8’. That for secondary barrier is 3.3’ to 7.4. The linac door thickness, from inside the vault to outside, should be 0.2” to 0.8” of lead + 0.8 to 1.6” BPE + 0.4” lead.": "",
+          "Shielding Specifications Summary (rev 3)": {
+            "Facility": "PAC Health Medical Center",
+            "Unit": "Varian True Beam",
+            "Table 1, below, summarizes the shielding requirements for each listed barrier and supersedes all individual barrier specifications. Any differences, whether larger or smaller, between barrier specifications and those presented in the table result from other considerations such as continuity of wall sections, predicted weekly exposure, and/or complex multiple alternate calculations. In the table, the column entitled “Barrier Thickness” lists the minimum amount of shielding required to meet regulatory requirements. These values are based on ALARA and/or cost considerations.": ""
+          },
+          "Table 1": [
+            {
+              "barrier_number": "900",
+              "type": "0.25",
+              "width_ft": "",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": ""
+            },
+            {
+              "barrier_number": "2700",
+              "type": "0.25",
+              "width_ft": "",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": ""
+            },
+            {
+              "barrier_number": "1",
+              "type": "P",
+              "width_ft": "8'",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "64”"
+            },
+            {
+              "barrier_number": "2",
+              "type": "S",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "36”"
+            },
+            {
+              "barrier_number": "3",
+              "type": "S",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "24”"
+            },
+            {
+              "barrier_number": "4",
+              "type": "P",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "24” + CAP\nflashing"
+            },
+            {
+              "barrier_number": "5",
+              "type": "S",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "36”"
+            },
+            {
+              "barrier_number": "6",
+              "type": "S",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "24” + 24”"
+            },
+            {
+              "barrier_number": "7",
+              "type": "S",
+              "width_ft": "N/A",
+              "concrete_inch": "",
+              "additional_required": "",
+              "comments": "36”"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "drawing_analysis": [
+    {
+      "page_number": 5,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead"
+      ]
+    },
+    {
+      "page_number": 4,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL",
+        "OFFICE"
+      ],
+      "room_numbers": [
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "3"
+      ]
+    },
+    {
+      "page_number": 7,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL",
+        "OFFICE"
+      ],
+      "room_numbers": [
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "3"
+      ]
+    },
+    {
+      "page_number": 6,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "2-1/8\" lead"
+      ]
+    },
+    {
+      "page_number": 8,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "unlabeled",
+        "2-1/8\" lead",
+        "unlabeled"
+      ]
+    },
+    {
+      "page_number": 8,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL",
+        "OFFICE"
+      ],
+      "room_numbers": [
+        "Barrier 1",
+        "Barrier 3",
+        "Barrier 4",
+        "Barrier 5",
+        "Barrier 7"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "2-1/8\" lead"
+      ]
+    },
+    {
+      "page_number": 9,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "lead_shielding_indicators": [
+        "3"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "Barrier 1: 3\" lead + 2\" BPE",
+        "Barrier 3: 5\" lead + 2\" BPE",
+        "Barrier 4: 4\" lead",
+        "Barrier 5: 2-1/8\" lead"
+      ],
+      "room_numbers": [
+        "TREATMENT",
+        "CONTROL",
+        "OFFICE",
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "unlabeled"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL",
+        "OFFICE"
+      ],
+      "room_numbers": [
+        "Barrier 1",
+        "Barrier 3",
+        "Barrier 4",
+        "Barrier 5",
+        "Barrier 7"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "2-1/8\" lead"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "OFFICE",
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "OFFICE",
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "2-1/8\" lead"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "OFFICE",
+        "CORRIDOR"
+      ],
+      "lead_shielding_indicators": [
+        "3\" lead + 2\" BPE",
+        "5\" lead + 2\" BPE",
+        "4\" lead",
+        "2-1/8\" lead"
+      ]
+    },
+    {
+      "page_number": 10,
+      "rooms_with_lead_doors": [
+        "TREATMENT",
+        "CONTROL"
+      ],
+      "room_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "OFFICE"
+      ],
+      "lead_shielding_indicators": [
+        "Barrier 1: 3\" lead + 2\" BPE",
+        "Barrier 2: 5\" lead + 2\" BPE",
+        "Barrier 3: 4\" lead",
+        "Barrier 4: 2-1/8\" lead",
+        "Barrier 7: 4\" lead"
+      ]
+    }
+  ]
+}

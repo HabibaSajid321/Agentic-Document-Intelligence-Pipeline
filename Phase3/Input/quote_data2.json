@@ -1,0 +1,278 @@
+{
+  "configuration": {
+    "tax_rate": 0.0825,
+    "markup_labor": 0.0,
+    "markup_other": 0.25,
+    "lead_brick_price": 1.25,
+    "lead_sheet_price": 1.75,
+    "steel_price": 1.40,
+    "poly_5_price": 850.00,
+    "poly_hd_price": 350.00
+  },
+  "quote_items": [
+    {
+      "qty": 1,
+      "unit": "ea",
+      "item_name": "4\" x 12\" x 2\" Lead Brick",
+      "description": "",
+      "width": 4,
+      "length": 12,
+      "thickness": 2,
+      "weight_per_unit": 40,
+      "weight_total": 40,
+      "cost_per_unit": 62.0,
+      "cost_total": 62.0,
+      "markup_pct": 0.25,
+      "markup": 15.5,
+      "burden": 0,
+      "taxable": 1,
+      "tax_amount": 6.35,
+      "total": 77.85,
+      "type": "Assembly",
+      "sub_items": [
+        {
+          "qty": 0.134,
+          "unit": "mh",
+          "item_name": "Labor - Laborer - ST",
+          "description": "Labor Fabricate - Brick",
+          "width": 0,
+          "length": 0,
+          "thickness": 0,
+          "weight_per_unit": 0,
+          "weight_total": 0,
+          "cost_per_unit": 40.0,
+          "cost_total": 5.36,
+          "markup_pct": 0,
+          "markup": 0,
+          "burden": 0,
+          "taxable": 0,
+          "tax_amount": 0,
+          "total": 5.49,
+          "type": "Labor"
+        },
+        {
+          "qty": 1,
+          "unit": "ea",
+          "item_name": "Gases - Pro-Fuel",
+          "description": "Pro Fuel",
+          "width": 0,
+          "length": 0,
+          "thickness": 0,
+          "weight_per_unit": 0,
+          "weight_total": 0,
+          "cost_per_unit": 0.17,
+          "cost_total": 0.17,
+          "markup_pct": 0.25,
+          "markup": 0.04,
+          "burden": 0,
+          "taxable": 1,
+          "tax_amount": 0.02,
+          "total": 0.21,
+          "type": "Material"
+        },
+        {
+          "qty": 1,
+          "unit": "ea",
+          "item_name": "Lead - Ingot",
+          "description": "Lead Ingot for Brick",
+          "width": 4,
+          "length": 12,
+          "thickness": 2,
+          "weight_per_unit": 40,
+          "weight_total": 40,
+          "cost_per_unit": 56.0,
+          "cost_total": 56.0,
+          "markup_pct": 0.25,
+          "markup": 14.0,
+          "burden": 0,
+          "taxable": 1,
+          "tax_amount": 5.78,
+          "total": 71.0,
+          "type": "Material"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "cost_total": 123.53,
+    "markup_pct": 0.25,
+    "markup": 19.44,
+    "burden": 0,
+    "pct_with_burden": 0.25,
+    "tax_amount": 12.15,
+    "sale_total": 155.12
+  },
+  "items": [
+    {
+      "item": "Lead - Ingot",
+      "description": "Pure lead for casting",
+      "cost": 56.0,
+      "burden": 0,
+      "uom": "ea",
+      "width": 1,
+      "length": 1,
+      "thickness": 1,
+      "weight_per_unit": 0.41667,
+      "type": "Material"
+    },
+    {
+      "item": "Labor - Laborer - ST",
+      "description": "",
+      "cost": 40.0,
+      "burden": 41.0,
+      "uom": "mh",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Labor"
+    },
+    {
+      "item": "Gases - Pro-Fuel",
+      "description": "Propane fuel mix",
+      "cost": 0.17,
+      "burden": 0,
+      "uom": "ea",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Material"
+    },
+    {
+      "item": "Adhesives - PVA Cold Press Glue",
+      "description": "Cold Press Glue",
+      "cost": 18.0,
+      "burden": 0,
+      "uom": "gal",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Material"
+    },
+    {
+      "item": "Pallet - 8'",
+      "description": "Pallet - 8'",
+      "cost": 65.0,
+      "burden": 0,
+      "uom": "ea",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Material"
+    },
+    {
+      "item": "Other - Packaging Materials",
+      "description": "Packaging Materials",
+      "cost": 30.0,
+      "burden": 0,
+      "uom": "ea",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Material"
+    },
+    {
+      "item": "Sheetrock - 1/2\" x 8'",
+      "description": "4' x 8' x 1/2\" GWB",
+      "cost": 0.22,
+      "burden": 0,
+      "uom": "ea",
+      "width": 48,
+      "length": 96,
+      "thickness": 0.5,
+      "weight_per_unit": 0.02917,
+      "type": "Material"
+    },
+    {
+      "item": "Labor - Carpenter - ST",
+      "description": "",
+      "cost": 38.0,
+      "burden": 16.0,
+      "uom": "mh",
+      "width": 0,
+      "length": 0,
+      "thickness": 0,
+      "weight_per_unit": 0,
+      "type": "Labor"
+    }
+  ],
+  "group_items": [
+    "Drywall - 8' x 1/2 GWB with Lead Sheet",
+    "Drywall - 9' x 1/2 GWB with Lead Sheet",
+    "Drywall - 10' x 1/2 GWB with Lead Sheet",
+    "Drywall - 12' x 1/2 GWB with Lead Sheet",
+    "Drywall - 8' x 5/8 GWB with Lead Sheet",
+    "Drywall - 9' x 5/8 GWB with Lead Sheet",
+    "Drywall - 10' x 5/8 GWB with Lead Sheet",
+    "Drywall - 12' x 5/8 GWB with Lead Sheet",
+    "Lead Brick - 3/4 x 4 x 12",
+    "Lead Brick - 1 x 4 x 12",
+    "Lead Brick - 1-1/2 x 4 x 12",
+    "Lead Brick - 2 x 4 x 12",
+    "Lead Brick - 2-1/2 x 4 x 12",
+    "Plywood - 4' x 8' x 1/2 FR Plywood w/ Lead Sheet",
+    "Plywood - 16 x 24 x 3/4 FR Plywood w/ Lead Sheet",
+    "Plywood - 16 x 84 x 3/4 FR Plywood w/ Lead Sheet",
+    "Plywood - 16 x 96 x 3/4 FR Plywood w/ Lead Sheet",
+    "Solid Core Wood Door"
+  ],
+  "item_templates": [
+    {
+      "template_name": "4\" x 12\" x 2\" Lead Brick",
+      "type": "Assembly",
+      "components": [
+        {"item": "Labor - Laborer - ST", "description": "Labor Fabricate - Brick"},
+        {"item": "Gases - Pro-Fuel", "description": "Pro Fuel"},
+        {"item": "Lead - Ingot", "description": "Lead Ingot for Brick"}
+      ]
+    },
+    {
+      "template_name": "4' x 8' x 1/2\" GWB w/ 49\" x 84\" x ????” Lead Sheet",
+      "type": "Assembly",
+      "components": [
+        {"item": "Lead - Sheet", "description": ""},
+        {"item": "Sheetrock - 1/2\" x 8'", "description": ""},
+        {"item": "Labor - Carpenter - ST", "description": "Labor Fabricate"},
+        {"item": "Adhesives - PVA Cold Press Glue", "description": ""},
+        {"item": "Pallet - 8'", "description": "50\" x 99\" Pallet"},
+        {"item": "Other - Packaging Materials", "description": "Packaging Materials"}
+      ]
+    }
+  ],
+  "lead_times": [
+    {
+      "task": "Bi-Part Door 2 men 7 Days Door and Jamb",
+      "hours": 56,
+      "personnel": 2
+    },
+    {
+      "task": "Door Surround 2 Men 2 Days",
+      "hours": 16,
+      "personnel": 2
+    },
+    {
+      "task": "Average Duct 2 Men 3 Days",
+      "hours": 24,
+      "personnel": 2
+    },
+    {
+      "task": "Single Slider 2 men 6 Days Door and Jamb",
+      "hours": 48,
+      "personnel": 2
+    },
+    {
+      "task": "Frame Fabrication - Standard Welded Frame",
+      "hours": 24,
+      "personnel": 1
+    },
+    {
+      "task": "Install Door - Bolt On Skin - Hinge W-150 or above",
+      "hours": 30,
+      "personnel": 3
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "client_name": "Lawrence + Memorial Hospital",
+  "location": "New London, CT",
+  "date": "May 2, 2025",
+  "days_valid": "7",
+  "diagnostic_rooms": [
+    "CT Room 01P242",
+    "LINAC Vault Rm 3B",
+    "Control Room 01P243"
+  ],
+  "materials_list": [
+    "Lead Lined Drywall\nEl Dorado Metals will supply and install 4' x 10' x 5/8\" Drywall 1/16\" lead lined 84\".",
+    "Lead Lined Frames\nEl Dorado Metals will supply lead lined frames (to be installed by others).",
+    "Lead Equivalent Glass\nEl Dorado Metals will supply and install lead equivalent glass.",
+    "Lead Lined Doors\nEl Dorado Metals will supply and swing lead lined doors. (Hardware Supplied and installed by others)",
+    "Heavy-Duty BPE Wall Assembly\nEl Dorado Metals will install 3\" Borated Polyethylene (BPE) layered between lead sheets for neutron attenuation in LINAC vault."
+  ]
+}

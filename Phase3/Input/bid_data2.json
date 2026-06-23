@@ -1,0 +1,82 @@
+{
+  "company_info": {
+    "legal_name": "El Dorado Metals Inc.",
+    "dba": "",
+    "email": "chardy@eldomet.com",
+    "address": "122 Pellizzari Place",
+    "city_state": "El Dorado, AR",
+    "zip_code": "71730",
+    "phone": "870-863-5757",
+    "state_domiciled": "Arkansas",
+    "mbe_wbe": false,
+    "certifying_agency": "",
+    "name": "Chase Hardy",
+    "title": "Sales",
+    "direct_email": "chardy@eldomet.com",
+    "vendor_contact_name": "Chase Hardy",
+    "vendor_contact_phone": "870-863-5757",
+    "vendor_contact_email": "chardy@eldomet.com"
+  },
+  "background_info": {
+    "years_in_business": "29",
+    "average_annual_revenue": "$5,000,000",
+    "bankruptcy_explanation": "",
+    "contract_termination_explanation": "",
+    "fined_explanation": "",
+    "crime_explanation": "",
+    "failed_work_explanation": "",
+    "lawsuit_explanation": "",
+    "projects": [
+      {
+        "description": "IU Health LINAC Shielding",
+        "value": "$277,729.00",
+        "start_date": "2024-07-10",
+        "end_date": "2025-02-15"
+      },
+      {
+        "description": "Ballwin Hospital Shielding",
+        "value": "$185,000.00",
+        "start_date": "2023-11-01",
+        "end_date": "2024-05-20"
+      }
+    ]
+  },
+  "references": [
+    {
+      "name": "F.A. Wilhelm Construction",
+      "service": "LINAC Shielding",
+      "value": "$277,729.00",
+      "contact": "Project Manager",
+      "email": "pm@wilhelm.com",
+      "phone": "317-555-0198",
+      "mobile": "317-555-0199"
+    },
+    {
+      "name": "Gilbane Building Co.",
+      "service": "Radiation Vault",
+      "value": "$198,500.00",
+      "contact": "Procurement",
+      "email": "procurement@gilbane.com",
+      "phone": "401-555-0176",
+      "mobile": "401-555-0177"
+    },
+    {
+      "name": "ABC General Contractors",
+      "service": "Lead Shielding",
+      "value": "$150,000.00",
+      "contact": "Estimating Dept",
+      "email": "estimating@abcgc.com",
+      "phone": "555-123-4567",
+      "mobile": "555-123-4568"
+    }
+  ],
+  "naics": {
+    "codes": "238190, 238990",
+    "titles": "Other Foundation, Structure, and Building Exterior Contractors; Other Specialty Trade Contractors"
+  },
+  "pricing": {
+    "lump_sum": 85000.00,
+    "allowance": 12000.00,
+    "grand_total": 97000.00
+  }
+}
