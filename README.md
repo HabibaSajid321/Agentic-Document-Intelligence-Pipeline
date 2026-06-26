@@ -1,4 +1,4 @@
-# EDM Agentic Workflow
+# Agentic Document Intelligence Pipeline
 
 An automated, three-phase agentic workflow orchestrated via **n8n** that streamlines document retrieval, intelligent data extraction (LLM & VLM), and automated document generation for radiation shielding plans.
 
